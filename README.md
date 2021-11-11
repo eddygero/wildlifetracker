@@ -48,7 +48,7 @@ CREATE DATABASE wildlife;
         CREATE DATABASE wildlife_test WITH TEMPLATE wildlife;
 
 ### BUGS
-NO BUGS noted, If any are experienced contact via Email gero.temitayo33@gmail.com :mailbox: and the issue will be sorted.
+NO BUGS noted, If any are experienced contact via Email  gero.temitayo33@gmail.com :mailbox: and the issue will be sorted.
 
 ## Contact Information
 * Email- gero.temitayo33@gmail.com
