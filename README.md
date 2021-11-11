@@ -35,6 +35,17 @@ If you want to use this as your template, here's how to go about it:
 * Clone the repository
 * Upon completion, navigate to the cloned repository
   Feel free to edit the files to your prefered taste
+* Now build the Database to enable storing of created instances
+  * Install Postgres SQL
+  * run the following commands in your terminal
+
+CREATE DATABASE wildlife;
+
+        CREATE TABLE animals (id serial PRIMARY KEY, name varchar,ranger varchar, age varchar, location varchar, health varchar, status varchar, spotted timestamp);
+
+        CREATE TABLE sighting (id serial PRIMARY KEY, location varchar);
+
+        CREATE DATABASE wildlife_test WITH TEMPLATE wildlife;
 
 ## Contact Information
 * Email- gero.temitayo33@gmail.com
