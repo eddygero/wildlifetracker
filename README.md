@@ -26,7 +26,11 @@ wildlife tracker is a web app for tracking animal in a park and ensuring their s
 * CSS 3
 
 ### Installation guide :notebook:
+If you want to use this as your template, here's how to go about it:
 
+* Install Git on you machine
+* Maneouver to 'clone or download' button and get the link
+* --Linux Users-- open your terminal and run the 'git clone ...' command in a directory of your choice
 
 ## Contact Information
 * Email- gero.temitayo33@gmail.com
