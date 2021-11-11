@@ -1,4 +1,4 @@
-# WildLife Tracker Java App :tiger2
+# WildLife Tracker 
 
 ## Author
 Edward Gero
