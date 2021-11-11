@@ -47,6 +47,9 @@ CREATE DATABASE wildlife;
 
         CREATE DATABASE wildlife_test WITH TEMPLATE wildlife;
 
+### BUGS
+
+
 ## Contact Information
 * Email- gero.temitayo33@gmail.com
 * Mobile Number- +07122222222
