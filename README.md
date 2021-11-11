@@ -3,14 +3,15 @@
 ## Author
 Edward Gero
 
-### Prerequisites
-* An up-to-date browser, preferably chrome or mozilla
-* Internet connection !
+
 
 ## Description
  
 wildlife tracker is a web app for tracking animal in a park and ensuring their safety while considering the new construction program around the park. It is mainly for protecting animals endangered by the construction. 
 
+### Prerequisites
+* An up-to-date browser, preferably chrome or mozilla
+* Internet connection !
 
 ## Behaviour Driven Development(BDD)
 |Behaviour 	           |    Input 	                 |       Output          |
@@ -23,6 +24,9 @@ wildlife tracker is a web app for tracking animal in a park and ensuring their s
 * Spark
 * Handlebars
 * CSS 3
+
+### Installation guide :notebook:
+
 
 ## Contact Information
 * Email- gero.temitayo33@gmail.com
