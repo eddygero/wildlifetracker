@@ -5,6 +5,7 @@ Edward Gero
 
 ### Prerequisites
 * An up-to-date browser, preferably chrome or mozilla
+* Internet connection !
 
 ## Description
  
