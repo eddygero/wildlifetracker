@@ -1,4 +1,4 @@
-# WildLife Tracker 
+ # WildLife Tracker 
 
 ## Author
 Edward Gero
