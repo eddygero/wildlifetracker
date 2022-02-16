@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-group 'eddygero'
+group 'wildlife_tracker'
 version '1.0-SNAPSHOT'
 
 mainClassName = "App"
