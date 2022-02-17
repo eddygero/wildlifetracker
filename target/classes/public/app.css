@@ -7,59 +7,28 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background: url("https://images.pexels.com/photos/3588140/pexels-photo-3588140.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") no-repeat center center/cover;
+ background: url(https://images.pexels.com/photos/1000653/pexels-photo-1000653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)no-repeat;
 }
 
 
-
-.container-bunner{
-  display: flex;
-  flex-direction: column;
-  height: 840px;
-  justify-content: center;
-
-  color: white;
-
-}
-.container-bunner::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: url("https://images.pexels.com/photos/2740844/pexels-photo-2740844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center/cover;
-  height: 900px;
+section{
+  position: relative;
   width: 100%;
-  z-index: -1;
-}
-
-.main{
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 
-  align-items: center;
-  position: absolute;
-  top: 30%;
-  right:10%;
-}
-.btn{
-  padding: 10px 35px;
-  background-color: transparent;
-  border: 1px solid white;
-  outline: none;
-  transition: .6s ease;
-  color: white;
-}
-.btn p{
-color: white;
+  background-size: cover;
+  background-position: center;
 }
 
-.btn p:hover{
-  cursor: pointer;
-  background-color: white;
-  color: black;
-  box-shadow: 0 0 5px white;
-  font-weight: bold;
+.container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+
 }
+
 header{
   position: relative;
   top: 0;
@@ -81,7 +50,7 @@ header .logo{
 }
 
 header .navigation a{
-  color: white;
+  color: #000;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 1px;
@@ -97,7 +66,6 @@ header .navigation a:not(:last-child){
 
 header .navigation a:hover{
   background: #fff;
-  color: black;
 }
 
 .content{
@@ -270,10 +238,10 @@ label{
   }
 }
 .col-md-4 {
-  background-color: grey;
+  background: #97dffc;
   border-radius: 5%;
 }
 .row {
-  background-color: grey;
+  background: #97dffc;
   border-radius: 2%;
 }

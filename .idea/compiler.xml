@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eddygerowild" />
+        <module name="wildlifetracker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="eddy" target="1.8" />
       <module name="eddygero" target="1.8" />
       <module name="eddyyy" target="1.8" />
-      <module name="wildlifetracker" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
