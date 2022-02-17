@@ -12,6 +12,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="eddy" target="1.8" />
       <module name="eddygero" target="1.8" />
+      <module name="eddygeroo" target="1.8" />
       <module name="eddyyy" target="1.8" />
     </bytecodeTargetLevel>
   </component>

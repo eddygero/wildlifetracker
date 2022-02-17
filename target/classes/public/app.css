@@ -7,28 +7,59 @@
   font-family: "Poppins", sans-serif;
 }
 body{
- background: url(https://images.pexels.com/photos/1000653/pexels-photo-1000653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)no-repeat;
+  background: url("../images/images.jpg") no-repeat center center/cover;
 }
 
 
-section{
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
+
+.container-bunner{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  height: 840px;
+  justify-content: center;
 
-  background-size: cover;
-  background-position: center;
-}
-
-.container {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  color: white;
 
 }
+.container-bunner::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../images/images.jpg") no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
 
+.main{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right:10%;
+}
+.btn{
+  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  outline: none;
+  transition: .6s ease;
+  color: white;
+}
+.btn p{
+color: white;
+}
+
+.btn p:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white;
+  font-weight: bold;
+}
 header{
   position: relative;
   top: 0;
@@ -50,7 +81,7 @@ header .logo{
 }
 
 header .navigation a{
-  color: #000;
+  color: white;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 1px;
@@ -66,6 +97,7 @@ header .navigation a:not(:last-child){
 
 header .navigation a:hover{
   background: #fff;
+  color: black;
 }
 
 .content{
@@ -238,10 +270,10 @@ label{
   }
 }
 .col-md-4 {
-  background: #97dffc;
+  background-color: grey;
   border-radius: 5%;
 }
 .row {
-  background: #97dffc;
+  background-color: grey;
   border-radius: 2%;
 }
