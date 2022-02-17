@@ -9,7 +9,8 @@ public class Animals {
     private String age;
     private String location;
     private String health;
-    private String status;
+    private String
+            status;
     private String spottime;
     private int id;
 
